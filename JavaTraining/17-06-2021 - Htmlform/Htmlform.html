@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<body>
+<form name="Dataentry"  action="processor.html" method="get">
+
+<table cellpadding="2" width="20%" bgcolor="99FFFF" align="center" cellspacing="2">
+
+
+<tr>
+
+  <td colspan=2>
+
+  <center><font size=4><b>Student Registration Form</b></font></center>
+
+  </td>
+
+  </tr>
+
+
+
+<tr>
+
+  <td>SNO</td>
+
+  <td><select name="SNO">
+
+  <option value="-1" selected>select..</option>
+
+  <option value="1">1</option>
+
+  <option value="2">2</option>
+
+  <option value="3">3</option>
+
+  <option value="4">4</option>
+
+  </select></td>
+
+  </tr>
+  <tr>
+
+  <td>ID</td>
+
+  <td><select name="ID">
+
+  <option value="-1" selected>select..</option>
+
+  <option value="1">111</option>
+
+  <option value="2">112</option>
+
+  <option value="3">113</option>
+
+  <option value="4">114</option>
+
+  </select></td>
+
+  </tr>
+  <tr>
+  <td>
+<label for ="Name">Name:</label>
+<input type="text"Name="Name"id="Name">
+</td>
+</tr>
+
+<tr>
+
+  <td>Sex</td>
+
+  <td><input type="radio" name="sex" value="male" size="10">Male
+
+  <input type="radio" name="sex" value="Female" size="10">Female</td>
+
+  </tr>
+  </table>
+  </form>
+<a href="StudentServlet">Call a servlet</a>
+
+</body>
+</html>
